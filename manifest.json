@@ -16,5 +16,14 @@
     },
     "default_title": "Timer Extenstion Aciton Title",
     "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
   }
 }
